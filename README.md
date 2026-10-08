@@ -1,6 +1,6 @@
- Flight Price Prediction using Machine Learning
+## Flight Price Prediction using Machine Learning
 
- Project Overview
+## Project Overview
 
 Flight ticket prices can change depending on several factors such as airline, source, destination, travel class, departure time, arrival time, journey duration, and number of stops.
 
@@ -10,7 +10,7 @@ The project also includes a Streamlit web application, where users can enter fli
 
 ---
 
- Objective
+## Objective
 
 The main objective of this project is to:
 
@@ -23,7 +23,7 @@ The main objective of this project is to:
 
 ---
 
- Dataset
+## Dataset
 
 - Dataset: Flight Price Dataset
 - Number of Rows: 300,257
@@ -34,7 +34,7 @@ The dataset contains information related to airlines, routes, travel class, date
 
 ---
 
- Features Used
+## Features Used
 
 The final model uses the following features:
 
@@ -55,7 +55,7 @@ The final model uses the following features:
 
 ---
 
- Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -71,7 +71,7 @@ The final model uses the following features:
 
 ---
 
- Project Workflow
+## Project Workflow
 
 Dataset
    ↓
@@ -97,7 +97,7 @@ Flight Price Prediction
 
 ---
 
- Data Preprocessing
+## Data Preprocessing
 
 The dataset contains both categorical and numerical features.
 
@@ -112,7 +112,7 @@ The preprocessing steps include:
 
 ---
 
- Feature Engineering
+## Feature Engineering
 
 New useful features were created from the existing data.
 
@@ -128,7 +128,7 @@ These features help the Machine Learning model understand flight-related pattern
 
 ---
 
- Machine Learning Models
+## Machine Learning Models
 
 Different regression algorithms were trained and compared:
 
@@ -148,7 +148,7 @@ Another ensemble regression technique used for comparison.
 
 ---
 
- Model Performance
+## Model Performance
 
 The final selected model is Random Forest Regressor.
 
@@ -162,7 +162,7 @@ The Random Forest model provided the best performance among the tested models.
 
 ---
 
- Machine Learning Pipeline
+## Machine Learning Pipeline
 
 A Machine Learning pipeline was created to combine:
 
@@ -178,7 +178,7 @@ This pipeline is used by the Streamlit application to make predictions for new i
 
 ---
 
- Streamlit Application
+## Streamlit Application
 
 The project includes a Streamlit-based web application.
 
@@ -203,7 +203,7 @@ After entering the details, the user can click the Predict Price button to get a
 
 ---
 
-💡 Example Prediction
+## Example Prediction
 
 For one sample input, the model predicted an approximate flight price of:
 
@@ -215,7 +215,7 @@ Actual flight prices may vary depending on factors such as demand, availability,
 
 ---
 
- Challenges Faced
+## Challenges Faced
 
 During the development of this project, we faced several challenges:
 
@@ -224,7 +224,7 @@ Pipeline Integration
 The input features from the Streamlit application had to exactly match the features expected by the trained pipeline.
 
 
-Streamlit Deployment
+## Streamlit Deployment
 
 Initially, there were issues while running the Streamlit application. The application was successfully configured and executed after troubleshooting.
 
@@ -240,7 +240,7 @@ Git username, email configuration, authentication, and large-file handling were 
 
 ---
 
- Real-World Applications
+## Real-World Applications
 
 This project can be useful for:
 
@@ -254,7 +254,7 @@ The system can help users get an approximate idea of the expected flight price b
 
 ---
 
- Limitations
+## Limitations
 
 The current dataset has a limited number of routes and mainly represents domestic flight data.
 
@@ -264,7 +264,7 @@ The predicted price should therefore be considered an estimated price, not a gua
 
 ---
 
- Future Improvements
+## Future Improvements
 
 In future versions, the project can be improved by:
 
@@ -282,7 +282,7 @@ A larger and more diverse dataset can help the model learn a wider range of real
 
 ---
 
- How to Run the Project
+## How to Run the Project
 
 1. Clone the repository
 
@@ -304,7 +304,7 @@ The application will open in your browser.
 
 ---
 
- Conclusion
+## Conclusion
 
 This project demonstrates the complete workflow of a Machine Learning regression project, starting from data preprocessing and feature engineering to model training, evaluation, pipeline creation, and deployment.
 
@@ -313,9 +313,3 @@ Among the tested models, Random Forest Regressor achieved the best performance w
 The final model was integrated with Streamlit to create a simple and user-friendly Flight Price Prediction application.
 
 ---
-
- Author
-
-Jasla
-
-Data Science Student
