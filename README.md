@@ -1,5 +1,10 @@
 ## Flight Price Prediction using Machine Learning
 
+##  Live Demo
+
+## Live Demo
+[Click here to try the Streamlit App](https://flight-price-prediction-ktxqybjqcmeykvbiyrkdao.streamlit.app/)
+
 ## Project Overview
 
 Flight ticket prices can change depending on several factors such as airline, source, destination, travel class, departure time, arrival time, journey duration, and number of stops.
